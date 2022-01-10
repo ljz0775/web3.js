@@ -404,16 +404,16 @@ var outputLogFormatter = function (log) {
         log.id = null;
     }
 
-    if (log.blockNumber !== null)
-        log.blockNumber = utils.hexToNumber(log.blockNumber);
-    if (log.transactionIndex !== null)
-        log.transactionIndex = utils.hexToNumber(log.transactionIndex);
-    if (log.logIndex !== null)
-        log.logIndex = utils.hexToNumber(log.logIndex);
+    // if (log.blockNumber !== null)
+    //     log.blockNumber = utils.hexToNumber(log.blockNumber);
+    // if (log.transactionIndex !== null)
+    //     log.transactionIndex = utils.hexToNumber(log.transactionIndex);
+    // if (log.logIndex !== null)
+    //     log.logIndex = utils.hexToNumber(log.logIndex);
 
-    if (log.address) {
-        log.address = utils.toChecksumAddress(log.address);
-    }
+    // if (log.address) {
+    //     log.address = utils.toChecksumAddress(log.address);
+    // }
 
     return log;
 };
