@@ -414,6 +414,7 @@ var outputLogFormatter = function (log) {
     // if (log.address) {
     //     log.address = utils.toChecksumAddress(log.address);
     // }
+    
 
     return log;
 };
